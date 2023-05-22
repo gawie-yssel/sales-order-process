@@ -1,10 +1,10 @@
 # Readme
 
 ## Overview
-This project shows how to use the ProcessAutomation plugin by implementing a sales order business process, testing the process with automated tests, and exposing the process to a UI through a REST API.
+This project shows how to build a simple sales order business process using Linx and the ProcessAutomation plugin, testing the process with automated tests, and exposing the process to a UI through a REST API.
 
 ## Business process
-The sales order process looks like this:
+The sales order process:
 ![alt text](salesorder.png)
 
 1. A sales order is created by passing in a customer code, stock code, and amount. 
@@ -69,6 +69,9 @@ http://staging.linx.software/docs/6/reference/plugins/processautomation/overview
 ### Implement and test
 https://linx.software/docs/6/reference/testrunner/testrunner/
 
+## Sundry rambling
+
+The ProcessAutomation Service is useful to control the process and keep state. It is not intended to be a repository for business data. If I had to redo this sample, I would rather create the order outside of the Process and start it by passing in the OrderId and Amount - not all the data required for the order.
 
 ## Repo contents
 
