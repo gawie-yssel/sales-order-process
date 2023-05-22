@@ -78,7 +78,7 @@ Preliminary docs for the ProcessAutomation Service can be found here: http://sta
 
 ### Implement and test
 
-Debugging the Process Service on its own is possible but not useful because Linx does not support running functions on services in the debugger. The only (and probably better) way to debug the Process Service is to write tests. For instructions on how to use the test runner see https://linx.software/docs/6/reference/testrunner/testrunner/.
+Debugging the Process Service itself in Linx Designer is not useful because Linx does not support running functions on services in the debugger. The only (and probably better) way to debug the Process Service is to write tests. For instructions on how to use the test runner see https://linx.software/docs/6/reference/testrunner/testrunner/.
 
 For each Process event:
 1. Write a test
@@ -88,11 +88,11 @@ For each Process event:
 
 The Process Service uses internal worker threads to execute tasks. To wait for these tasks to complete before testing the results, check the status of the process instance. The WaitForProcessStatus function in the Test_Process folder encapsulates this logic and is called by all the tests to wait for 'Finished' or 'Suspended' statuses.
 
-I found the tests to be very useful when changing the solution and upgrading Linx components. Running the tests after every refactor or component upgrade made finding problems much easier and gave me confidence to make more ambitious changes.
-
 ## Sundry rambling
 
 The ProcessAutomation Service is useful to control the process and keep state. It is not intended to be a repository for business data. At the moment we are passing in more data than is required by the process, so we could further refactor this by creating the order outside the process and then starting the process by passing in only the OrderId and Amount.
+
+I found the tests to be very useful when changing the solution and upgrading Linx components. Running the tests after every refactor or component upgrade made finding problems much easier and gave me confidence when making more ambitious changes.
 
 ## Repo contents
 
