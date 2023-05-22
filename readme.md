@@ -64,17 +64,35 @@ Run SalesOrderDemo.html to exercise the process through a UI.
 ## Building from scratch
 
 ### Design the process
-https://bpmn-editor.linx.software/
+
+Design the process using this bpmn editor: https://bpmn-editor.linx.software/. Load salesorder.bpmn to see the process flow. Each object has properties as shown in the screenshot below.
+![alt text](bpmn-editor.png)
 
 ### Add the process to Linx
-http://staging.linx.software/docs/6/reference/plugins/processautomation/overview/
+
+Open or create a Linx solution and add the ProcessAutomation plugin. Add the Process Service to the solution, download the XML from the bpmn editor, and paste the bpmn XML into the Definition property of the Process Service. This will create events for all the bpmn tasks and functions to interact with the Service.
+
+Set the database type and connection on the Process Service properties.
+
+Preliminary docs for the ProcessAutomation Service can be found here: http://staging.linx.software/docs/6/reference/plugins/processautomation/overview/.
 
 ### Implement and test
-https://linx.software/docs/6/reference/testrunner/testrunner/
+
+Debugging the Process Service on its own is possible but not useful because Linx does not support running functions on services in the debugger. The only (and probably better) way to debug the Process Service is to write tests. For instructions on how to use the test runner see https://linx.software/docs/6/reference/testrunner/testrunner/.
+
+For each Process event:
+1. Write a test
+2. Run the test - it should fail
+3. Implement the logic for the event
+4. Run the test - it should pass
+
+The Process Service uses internal worker threads to execute tasks. To wait for these tasks to complete before testing the results, check the status of the process instance. The WaitForProcessStatus function in the Test_Process folder encapsulates this logic and is called by all the tests to wait for 'Finished' or 'Suspended' statuses.
+
+I found the tests to be very useful when changing the solution and upgrading Linx components. Running the tests after every refactor or component upgrade made finding problems much easier and gave me confidence to make more ambitious changes.
 
 ## Sundry rambling
 
-The ProcessAutomation Service is useful to control the process and keep state. It is not intended to be a repository for business data. Following this logic, I should rather create the order outside of the Process and start it by passing in the OrderId and Amount - not all the data required for the order.
+The ProcessAutomation Service is useful to control the process and keep state. It is not intended to be a repository for business data. At the moment we are passing in more data than is required by the process, so we could further refactor this by creating the order outside the process and then starting the process by passing in only the OrderId and Amount.
 
 ## Repo contents
 
