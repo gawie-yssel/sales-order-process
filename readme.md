@@ -68,6 +68,8 @@ Run SalesOrderDemo.html to exercise the process through a UI.
 Design the process using this bpmn editor: https://bpmn-editor.linx.software/. Load salesorder.bpmn to see the process flow. Each object has properties as shown in the screenshot below.
 ![alt text](bpmn-editor.png)
 
+All tasks are by default synchronous. To create an asynchronous task (typically for long running or manual tasks), check the Is Async property. The GetApproval task is asynchronous and only completes when the Complete_GetApproval function is called.
+
 ### Add the process to Linx
 
 Open or create a Linx solution and add the ProcessAutomation plugin. Add the Process Service to the solution, download the XML from the bpmn editor, and paste the bpmn XML into the Definition property of the Process Service. This will create events for all the bpmn tasks and functions to interact with the Service.
