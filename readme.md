@@ -74,7 +74,7 @@ https://linx.software/docs/6/reference/testrunner/testrunner/
 
 ## Sundry rambling
 
-The ProcessAutomation Service is useful to control the process and keep state. It is not intended to be a repository for business data. If I had to redo this sample, I would rather create the order outside of the Process and start it by passing in the OrderId and Amount - not all the data required for the order.
+The ProcessAutomation Service is useful to control the process and keep state. It is not intended to be a repository for business data. Following this logic, I should rather create the order outside of the Process and start it by passing in the OrderId and Amount - not all the data required for the order.
 
 ## Repo contents
 
