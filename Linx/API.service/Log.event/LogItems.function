@@ -1,0 +1,23 @@
+{
+  "Properties": [
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:Lv3u",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    },
+    {
+      "Id": "Value",
+      "Type": "List:Custom:Lv3u",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetProcessInstanceLog.OrderByDescending(x=>x.Timestamp)",
+        "CompiledExpression": "={0}.OrderByDescending(x=>x.Timestamp)",
+        "Type": "Compiled:System.Linq.IOrderedEnumerable`1[[Twenty57.Linx.Plugins.ProcessAutomation.DataModel.ProcessExecutionLogEntry, Twenty57.Linx.Plugins.ProcessAutomation, Version=99.0.20.0, Culture=neutral, PublicKeyToken=null]], System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "Result": "List:Custom:Lv3u"
+}

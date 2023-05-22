@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "ICHW",
+      "Properties": [
+        {
+          "Id": "N7CV",
+          "Name": "LogItems",
+          "Type": "List:Custom:Lv3u",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

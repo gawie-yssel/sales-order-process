@@ -1,0 +1,83 @@
+<html>
+    <header><title>Sales Order Demo</title></header>
+    <body onload="EnableApproveButtons(false)">
+        <h1>Sales Order Demo</h1>
+
+        <h2>Create order</h2>
+        <table>
+            <tr><td>CustomerCode</td><td><input id="customerCode" type="text" value="customerA"/></td></tr>
+            <tr><td>StockCode</td><td><input id="stockCode" type="text" value="stock1"/></td></tr>
+            <tr><td>Amount</td><td><input id="amount" type="text"/></td></tr>
+        </table>
+        <p>Amounts > 100 require approval</p>
+        <button onclick="CreateOrder(document.getElementById('customerCode').value,document.getElementById('stockCode').value,document.getElementById('amount').value)">Create</button>
+
+        <h2>Approve order</h3>
+        <button id="approveOrderButton" onclick="ApproveOrder(true)">ApproveOrder</button>
+        <button id="rejectOrderButton" onclick="ApproveOrder(false)">RejectOrder</button>
+
+        <h2>Results</h2>
+        <h3>Order</h3>
+        <div>Id: <label id="orderId"></label></div>
+        <div>Status: <label id="status"></label></div>
+        <h3>Log</h3>
+        <div><table id="log"></table></div>
+        <div><button id="refreshResults" onclick="RefreshResults()">Refresh Results</button></div>
+
+        <script>
+            const API_URI = "http://localhost:9001/";
+            let orderId;
+            async function CreateOrder(customerCode, stockCode, amount) {
+                const response = await fetch(`${API_URI}create-order?customercode=${customerCode}&stockcode=${stockCode}&amount=${amount}`);
+                orderId = await response.json();
+                ShowOrder(orderId, "")
+                EnableApproveButtons(amount > 100);
+                setTimeout(RefreshResults,1000);
+            };
+            async function EnableApproveButtons(enabled){
+                document.getElementById("approveOrderButton").disabled = !enabled;
+                document.getElementById("rejectOrderButton").disabled = !enabled;
+            };
+            async function ApproveOrder(approved){
+                const response = await fetch(`${API_URI}approve?id=${orderId}&approve=${approved}`);
+                if(response.ok) EnableApproveButtons(false);
+                setTimeout(RefreshResults,1000);
+            };
+            async function RefreshOrder(){
+                const response = await fetch(`${API_URI}get-order?id=${orderId}`);
+                const order = await response.json();
+                ShowOrder(orderId, order.Status);
+            };
+            async function RefreshLog() {
+                const response = await fetch(`${API_URI}log?orderid=${orderId}`);
+                const log = await response.json();
+                ShowLog(log);
+            };
+            async function ShowOrder(id, status){
+                document.getElementById("orderId").innerText = id;
+                document.getElementById("status").innerText = status;
+            };
+            async function ShowLog(log){
+                const table = document.createElement("table");
+                const headerRow = table.insertRow();
+                headerRow.insertCell().innerText = "Timestamp";
+                headerRow.insertCell().innerText = "ActivityName";
+                headerRow.insertCell().innerText = "EventName";
+                headerRow.insertCell().innerText = "ActivityID";
+                log.forEach(logItem => {
+                    const row = table.insertRow();
+                    row.insertCell().innerText = logItem.Timestamp;
+                    row.insertCell().innerText = logItem.ActivityName;
+                    row.insertCell().innerText = logItem.EventName;
+                    row.insertCell().innerText = logItem.ActivityID;
+                });
+                document.getElementById("log").replaceWith(table);
+                table.id = "log";
+            };
+            async function RefreshResults(){
+                await RefreshOrder();
+                await RefreshLog();
+            }
+        </script>
+    </body>
+</html>

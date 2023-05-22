@@ -1,0 +1,40 @@
+{
+  "Properties": [
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "ProcessInstanceID": "ProcessInstanceID"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "ProcessInstanceID",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.OrderId",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Service function",
+      "Type": "Compiled:Linx.IServiceFunctionReference",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "ServiceId": "sRfb",
+        "ServiceFunctionId": "L8cg",
+        "ServiceFunctionName": "Process.GetProcessInstanceLog",
+        "Parameters": "Generated:DyYs",
+        "Result": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.ProcessAutomation.DataModel.ProcessExecutionLogEntry, Twenty57.Linx.Plugins.ProcessAutomation, Version=99.0.20.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "IsValid": true,
+        "QualifiedPath": "SV:Process→SF:GetProcessInstanceLog"
+      },
+      "ValueType": "Linx.ServiceFunctionReference"
+    }
+  ],
+  "Result": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.ProcessAutomation.DataModel.ProcessExecutionLogEntry, Twenty57.Linx.Plugins.ProcessAutomation, Version=99.0.20.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+}

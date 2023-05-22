@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "IWLr",
+      "Properties": [
+        {
+          "Id": "Id",
+          "Name": "Id",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "CustomerCode",
+          "Name": "CustomerCode",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "StockCode",
+          "Name": "StockCode",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Amount",
+          "Name": "Amount",
+          "Type": "Compiled:Decimal",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Status",
+          "Name": "Status",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

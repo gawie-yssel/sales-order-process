@@ -1,0 +1,47 @@
+{
+  "Properties": [
+    {
+      "Id": "DataOutputs",
+      "Type": "Generated:QNjk",
+      "ValueUsage": "RuntimeRead",
+      "Value": "{\"Approved\":false}",
+      "ValueType": "String"
+    },
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "ProcessInstanceID": "ProcessInstanceID",
+        "DataOutputs": "DataOutputs"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "ProcessInstanceID",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "StartProcess",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Service function",
+      "Type": "Compiled:Linx.IServiceFunctionReference",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "ServiceId": "sRfb",
+        "ServiceFunctionId": "oBj6",
+        "ServiceFunctionName": "Process.Complete_GetApproval",
+        "Parameters": "Generated:eV4m",
+        "Result": null,
+        "IsValid": true,
+        "QualifiedPath": "SV:Process→SF:Complete_GetApproval"
+      },
+      "ValueType": "Linx.ServiceFunctionReference"
+    }
+  ]
+}

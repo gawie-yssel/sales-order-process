@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "IzRV",
+      "Properties": [
+        {
+          "Id": "tjKV",
+          "Name": "Service_ToStart",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

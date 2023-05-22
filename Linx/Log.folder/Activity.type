@@ -1,0 +1,16 @@
+{
+  "Id": "qsmE",
+  "Name": "Activity",
+  "Properties": [
+    {
+      "Id": "wAho",
+      "Name": "ID",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "4r6R",
+      "Name": "Name",
+      "Type": "Compiled:String"
+    }
+  ]
+}

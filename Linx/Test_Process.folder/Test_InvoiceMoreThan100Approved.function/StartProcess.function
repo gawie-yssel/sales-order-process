@@ -1,0 +1,49 @@
+{
+  "Properties": [
+    {
+      "Id": "Amount",
+      "Type": "Compiled:Double",
+      "ValueUsage": "RuntimeRead",
+      "Value": 110
+    },
+    {
+      "Id": "CustomerCode",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "Shoprite"
+    },
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Amount": "Amount",
+        "CustomerCode": "CustomerCode",
+        "StockCode": "StockCode"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "Service function",
+      "Type": "Compiled:Linx.IServiceFunctionReference",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "ServiceId": "sRfb",
+        "ServiceFunctionId": "IKaj",
+        "ServiceFunctionName": "Process.StartProcess",
+        "Parameters": "Generated:3h7x",
+        "Result": "Compiled:String",
+        "IsValid": true,
+        "QualifiedPath": "SV:Process→SF:StartProcess"
+      },
+      "ValueType": "Linx.ServiceFunctionReference"
+    },
+    {
+      "Id": "StockCode",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "SOAP"
+    }
+  ],
+  "Result": "Compiled:String"
+}

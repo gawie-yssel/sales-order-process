@@ -1,0 +1,36 @@
+{
+  "Id": "Lv3u",
+  "Name": "LogItem",
+  "Properties": [
+    {
+      "Id": "XHDn",
+      "Name": "ProcessInstanceID",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "TEG3",
+      "Name": "Timestamp",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "Fd1x",
+      "Name": "Message",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "9Kmh",
+      "Name": "ActivityID",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "1lgS",
+      "Name": "EventName",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "XraD",
+      "Name": "ActivityName",
+      "Type": "Compiled:String"
+    }
+  ]
+}

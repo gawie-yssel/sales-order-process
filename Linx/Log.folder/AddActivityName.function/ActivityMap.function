@@ -1,0 +1,19 @@
+{
+  "Properties": [
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:qsmE",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    },
+    {
+      "Id": "Value",
+      "Type": "List:Custom:qsmE",
+      "ValueUsage": "RuntimeRead",
+      "Value": "[{\"ID\":\"_8A9BB6C0-7C27-469D-A725-CE5482EFDFB9\", \"Name\":\"RejectOrder\"},\r\n{\"ID\":\"_511B2619-F1A8-4627-9379-E2AF2D8AB4C0\", \"Name\":\"CreateInvoice\"},\r\n{\"ID\":\"_0D2BEA8A-78D2-4894-8153-B8761E6D4E89\", \"Name\":\"GetApproval\"},\r\n{\"ID\":\"_F74FEF3E-C7B7-44A8-821D-0769E39B2FEA\", \"Name\":\"CreateOrder\"},\r\n{\"ID\":\"_91CC240E-E940-4986-B3BB-100DFC894E03\", \"Name\":\"IsApproved\"},\r\n{\"ID\":\"_11C45746-DCB8-4958-B0CB-553DC556BB57\", \"Name\":\"OrderAmountSwitch\"},\r\n{\"ID\":\"_386AECD6-C569-48D2-9E9D-8632A511F753\", \"Name\":\"Finish\"}]",
+      "ValueType": "String"
+    }
+  ],
+  "Result": "List:Custom:qsmE"
+}

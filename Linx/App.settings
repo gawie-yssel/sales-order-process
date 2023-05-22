@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "KoYF",
+    "Name": "Db",
+    "Type": "Compiled:String",
+    "Secret": true
+  },
+  {
+    "Id": "bq8z",
+    "Name": "API_URI",
+    "Type": "Compiled:String",
+    "Value": "http://localhost:9001/"
+  }
+]

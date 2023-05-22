@@ -1,0 +1,27 @@
+{
+  "Properties": [
+    {
+      "Id": "Assertion",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Utilities.Assert.AssertionType, Twenty57.Linx.Plugins.Utilities, Version=99.0.27.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "IsNotNull"
+    },
+    {
+      "Id": "Item",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetOrder",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:IWLr"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Message",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "Order does not exist"
+    }
+  ]
+}

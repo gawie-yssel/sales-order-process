@@ -1,0 +1,40 @@
+{
+  "Properties": [
+    {
+      "Id": "Actual",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetOrderBeforeApproval.Status",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Assertion",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Utilities.Assert.AssertionType, Twenty57.Linx.Plugins.Utilities, Version=99.0.27.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "AreEqual"
+    },
+    {
+      "Id": "Expected",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": "AwaitingApproval",
+      "ValueType": "String"
+    },
+    {
+      "Id": "Message",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "Order status incorrect"
+    },
+    {
+      "Id": "Tolerance",
+      "Type": "Compiled:System.Nullable`1[[System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "RuntimeRead",
+      "Value": null
+    }
+  ]
+}

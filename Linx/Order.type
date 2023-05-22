@@ -1,0 +1,31 @@
+{
+  "Id": "s34O",
+  "Name": "Order",
+  "Properties": [
+    {
+      "Id": "417N",
+      "Name": "Id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "1GCK",
+      "Name": "CustomerCode",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "b7wM",
+      "Name": "StockCode",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "q5Gr",
+      "Name": "Amount",
+      "Type": "Compiled:Decimal"
+    },
+    {
+      "Id": "uDi3",
+      "Name": "Status",
+      "Type": "Compiled:String"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "Properties": [
+    {
+      "Id": "N7CV",
+      "Type": "List:Custom:Lv3u",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "LogItems",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:Lv3u"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "N7CV": "LogItems"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "Process",
+      "Type": "Compiled:Linx.IProcessReference",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Id": "tVDt",
+        "Name": "Log.AddActivityName",
+        "Parameters": "Generated:ICHW",
+        "Result": null,
+        "IsValid": true,
+        "QualifiedPath": "FL:Log→PC:AddActivityName"
+      },
+      "ValueType": "Linx.ProcessReference"
+    }
+  ]
+}
