@@ -14,6 +14,9 @@ The sales order process:
 
 All the steps are automated except for the approval step. When the order requires approval, the process stops until approval is completed.
 
+The Linx editor view:
+![alt text](linx.png)
+
 ## Getting it running
 
 ### Prerequisites

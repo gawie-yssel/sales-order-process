@@ -11,7 +11,7 @@
     "twenty57.linx.plugins.utilities, 99.0.27-vnext"
   ],
   "Dependencies": [
-    "twenty57.linx.solutiondependencies.compilation, 99.0.67-vnext",
+    "twenty57.linx.solutiondependencies.compilation, 99.0.68-vnext",
     "twenty57.linx.solutiondependencies.types, 99.0.12-vnext"
   ],
   "Items": [
