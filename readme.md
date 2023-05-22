@@ -24,7 +24,7 @@ The Linx editor view:
 - MS SqlServer 2022
 
 ### Run the tests
-1. Create a database and run the script \db\create-db-objects.sql to create the database objects.
+1. Create the database with \db\create-db.sql.
 1. Open \Linx\SalesOrderAutomation.solution in Linx Editor.
 1. In Settings, change the value of Db to your database connectionstring.
 1. The test runner does not have access to secret settings, so we have to supply it with a separate settings file to override the default. To create the file

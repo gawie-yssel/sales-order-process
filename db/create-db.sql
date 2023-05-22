@@ -1,3 +1,11 @@
+USE master
+GO
+CREATE DATABASE SalesProcessDemo;
+END;
+GO
+USE SalesProcessDemo
+GO
+
 /****** Object:  Schema [Elsa]    Script Date: 2023/05/19 09:26:56 ******/
 CREATE SCHEMA [Elsa]
 GO
