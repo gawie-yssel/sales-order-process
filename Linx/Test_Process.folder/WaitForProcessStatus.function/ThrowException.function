@@ -1,0 +1,20 @@
+{
+  "Properties": [
+    {
+      "Id": "Message",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "\"ProcessInstance \" + $.Parameters.ProcessInstanceId + \" did not reach status \" + $.Parameters.Status",
+        "CompiledExpression": "=\"ProcessInstance \"+{1}+\" did not reach status \"+{0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  },
+  "Version": "1"
+}
