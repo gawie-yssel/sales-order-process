@@ -28,13 +28,13 @@
         "ServiceId": "sRfb",
         "ServiceFunctionId": "L8cg",
         "ServiceFunctionName": "Process.GetProcessInstanceLog",
-        "Parameters": "Generated:9BTh",
-        "Result": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.ProcessAutomation.DataModel.ProcessExecutionLogEntry, Twenty57.Linx.Plugins.ProcessAutomation, Version=99.0.21.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "Parameters": "Generated:kTMt",
+        "Result": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.ProcessAutomation.DataModel.ProcessExecutionLogEntry, Twenty57.Linx.Plugins.ProcessAutomation, Version=99.0.23.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
         "IsValid": true,
         "QualifiedPath": "SV:Process→SF:GetProcessInstanceLog"
       },
       "ValueType": "Linx.ServiceFunctionReference"
     }
   ],
-  "Result": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.ProcessAutomation.DataModel.ProcessExecutionLogEntry, Twenty57.Linx.Plugins.ProcessAutomation, Version=99.0.21.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+  "Result": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.ProcessAutomation.DataModel.ProcessExecutionLogEntry, Twenty57.Linx.Plugins.ProcessAutomation, Version=99.0.23.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
 }

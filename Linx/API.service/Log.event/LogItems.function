@@ -14,7 +14,7 @@
       "Value": {
         "Expression": "GetProcessInstanceLog.OrderByDescending(x=>x.Timestamp)",
         "CompiledExpression": "={0}.OrderByDescending(x=>x.Timestamp)",
-        "Type": "Compiled:System.Linq.IOrderedEnumerable`1[[Twenty57.Linx.Plugins.ProcessAutomation.DataModel.ProcessExecutionLogEntry, Twenty57.Linx.Plugins.ProcessAutomation, Version=99.0.21.0, Culture=neutral, PublicKeyToken=null]], System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+        "Type": "Compiled:System.Linq.IOrderedEnumerable`1[[Twenty57.Linx.Plugins.ProcessAutomation.DataModel.ProcessExecutionLogEntry, Twenty57.Linx.Plugins.ProcessAutomation, Version=99.0.23.0, Culture=neutral, PublicKeyToken=null]], System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
       },
       "ValueType": "Linx.CSharpExpression"
     }
