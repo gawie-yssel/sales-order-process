@@ -28,7 +28,7 @@
         "ServiceId": "sRfb",
         "ServiceFunctionId": "ivvW",
         "ServiceFunctionName": "Process.GetProcessInstance",
-        "Parameters": "Generated:g8eC",
+        "Parameters": "Generated:M0K2",
         "Result": "Compiled:Twenty57.Linx.Plugins.ProcessAutomation.DataModel.ProcessInstance, Twenty57.Linx.Plugins.ProcessAutomation, Version=99.0.23.0, Culture=neutral, PublicKeyToken=null",
         "IsValid": true,
         "QualifiedPath": "SV:Process→SF:GetProcessInstance"

@@ -17,9 +17,9 @@
       "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "DesignTime",
       "Value": {
+        "Amount": "Amount",
         "StockCode": "StockCode",
-        "CustomerCode": "CustomerCode",
-        "Amount": "Amount"
+        "CustomerCode": "CustomerCode"
       },
       "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
@@ -31,7 +31,7 @@
         "ServiceId": "sRfb",
         "ServiceFunctionId": "IKaj",
         "ServiceFunctionName": "Process.StartProcess",
-        "Parameters": "Generated:jxfl",
+        "Parameters": "Generated:Cdob",
         "Result": "Compiled:String",
         "IsValid": true,
         "QualifiedPath": "SV:Process→SF:StartProcess"

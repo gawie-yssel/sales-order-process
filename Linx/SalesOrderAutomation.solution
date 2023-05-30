@@ -1,5 +1,5 @@
 {
-  "ApplicationVersion": "6.7.3",
+  "ApplicationVersion": "6.7.4",
   "SolutionVersion": 6,
   "Plugins": [
     "twenty57.linx.plugins.database, 99.0.37-vnext",
