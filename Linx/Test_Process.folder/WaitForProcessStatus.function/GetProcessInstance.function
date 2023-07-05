@@ -28,13 +28,13 @@
         "ServiceId": "sRfb",
         "ServiceFunctionId": "ivvW",
         "ServiceFunctionName": "Process.GetProcessInstance",
-        "Parameters": "Generated:MkDU",
-        "Result": "Compiled:Twenty57.Linx.Plugins.ProcessAutomation.DataModel.ProcessInstance, Twenty57.Linx.Plugins.ProcessAutomation, Version=99.0.26.0, Culture=neutral, PublicKeyToken=null",
+        "Parameters": "Generated:8o3C",
+        "Result": "Compiled:Twenty57.Linx.Plugins.ProcessAutomation.DataModel.ProcessInstance, Twenty57.Linx.Plugins.ProcessAutomation, Version=99.0.32.0, Culture=neutral, PublicKeyToken=null",
         "IsValid": true,
         "QualifiedPath": "SV:Process→SF:GetProcessInstance"
       },
       "ValueType": "Linx.ServiceFunctionReference"
     }
   ],
-  "Result": "Compiled:Twenty57.Linx.Plugins.ProcessAutomation.DataModel.ProcessInstance, Twenty57.Linx.Plugins.ProcessAutomation, Version=99.0.26.0, Culture=neutral, PublicKeyToken=null"
+  "Result": "Compiled:Twenty57.Linx.Plugins.ProcessAutomation.DataModel.ProcessInstance, Twenty57.Linx.Plugins.ProcessAutomation, Version=99.0.32.0, Culture=neutral, PublicKeyToken=null"
 }

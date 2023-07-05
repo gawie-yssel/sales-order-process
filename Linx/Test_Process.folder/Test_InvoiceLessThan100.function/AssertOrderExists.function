@@ -2,7 +2,7 @@
   "Properties": [
     {
       "Id": "Assertion",
-      "Type": "Compiled:Twenty57.Linx.Plugins.Utilities.Assert.AssertionType, Twenty57.Linx.Plugins.Utilities, Version=99.0.27.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Utilities.Assert.AssertionType, Twenty57.Linx.Plugins.Utilities, Version=99.0.28.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "IsNotNull"
     },

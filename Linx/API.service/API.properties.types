@@ -7,7 +7,7 @@
         {
           "Id": "HttpContext",
           "Name": "HttpContext",
-          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.WebServiceWithDefinitionEditor.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=99.0.34.0, Culture=neutral, PublicKeyToken=null",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.WebServiceWithDefinitionEditor.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=99.0.37.0, Culture=neutral, PublicKeyToken=null",
           "Access": "ReadWrite"
         },
         {
@@ -27,7 +27,7 @@
         {
           "Id": "HttpContext",
           "Name": "HttpContext",
-          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.WebServiceWithDefinitionEditor.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=99.0.34.0, Culture=neutral, PublicKeyToken=null",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.WebServiceWithDefinitionEditor.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=99.0.37.0, Culture=neutral, PublicKeyToken=null",
           "Access": "ReadWrite"
         },
         {
@@ -85,7 +85,7 @@
         {
           "Id": "HttpContext",
           "Name": "HttpContext",
-          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.WebServiceWithDefinitionEditor.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=99.0.34.0, Culture=neutral, PublicKeyToken=null",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.WebServiceWithDefinitionEditor.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=99.0.37.0, Culture=neutral, PublicKeyToken=null",
           "Access": "ReadWrite"
         },
         {
@@ -149,7 +149,7 @@
         {
           "Id": "HttpContext",
           "Name": "HttpContext",
-          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.WebServiceWithDefinitionEditor.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=99.0.34.0, Culture=neutral, PublicKeyToken=null",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.WebServiceWithDefinitionEditor.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=99.0.37.0, Culture=neutral, PublicKeyToken=null",
           "Access": "ReadWrite"
         },
         {
